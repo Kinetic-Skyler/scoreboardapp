@@ -51,7 +51,7 @@ var Counter = React.createClass({
                 {/*<div className="counter-score"> {this.props.score} </div>*/}
                 <div className="counter-score"> {this.state.score} </div>
 
-                <button className="counter-action increment" > + </button>
+                <button className="counter-action increment" onClick={this.incrementScore}> + </button>
             </div>
         );
     }
